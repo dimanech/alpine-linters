@@ -16,4 +16,4 @@ RUN npm install -g stylelint@${STYLELINT_VERSION} \
 
 WORKDIR /app
 
-ENTRYPOINT ["app"]
+ENTRYPOINT ["stylelint"]
